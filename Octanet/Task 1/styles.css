@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    color: whitesmoke
+    
+}
+
+.header {
+    background: #121214;
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    
+}
+span{
+    color: orange;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links :hover{
+   color: orange;
+   
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.details{
+    width: 100%;
+    height: 80vh; 
+    background-color: #cccccc;
+    background-image: url(https://wallpaperaccess.com/full/2968326.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.details h1{
+    font-size: 40px;
+    font-family: arial;
+
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 48px;
+
+}
+
+.header-content p {
+    font-size: 18px;
+}
+
+.btn {
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.btn:hover{
+    background-color: orange;
+    color: white;
+    box-shadow: 0 0 20px orange;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about{
+    background-image: url(https://wallpapercave.com/wp/wp3132312.jpg);
+    width: 97.35%;
+    height: 90vh;
+    background-size: cover;
+}
+#about h1{
+    color: orange;
+    font-family: arial;
+    padding-top: 130px;
+    padding-left: 120px;
+}
+#about pre{
+    text-align: justify;
+    font-family: block;
+    padding-left: 700px;
+    
+}
+#features{
+    background-image: url(https://wallpapercave.com/wp/wp3173142.jpg);
+    background-size: cover;
+    width: 97.35%;
+    height: 90vh ;
+   
+
+}
+
+.all-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+.feature-box {
+    
+    background-color: #212529 ;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 150px;
+    
+   
+}
+ .feature-box h2{
+    color: orange;
+} 
+.feature-box p{
+    text-align: justify;
+    margin: 20px;
+}
+.all-input{
+    padding-top: 100px;
+    
+}
+.input{
+    background: transparent;
+    
+}
+
+#contact{
+    background-image: url(https://th.bing.com/th/id/R.35e6e83e8fe5ab6e543697afcd35e454?rik=RXEeRJf2PSfA6A&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fFitness-hd-wallpapers-for-mobile.jpg&ehk=bp40IUmn1d7pDifMNNjWVeYFTkzhcnyeDfxbG2nE%2fnE%3d&risl=&pid=ImgRaw&r=0);
+    width: 97.35%;
+    height: 90vh;
+    background-size: cover;
+}
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    
+    
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    color: white;
+    
+}
+
+.contact-form button {
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover{
+    background-color: orange;
+    color: white;
+    box-shadow: 0 0 20px orange;
+}
+
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+   /*  padding: 20px; */
+   margin-top: 20px;
+   width: 100%;
+   
+   
+}
+.contact {
+    background-color: #081b29;
+    color: #ededed;
+    padding: 100px 10%;
+}
+
+.contact .container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact .heading1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#contact .heading1::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: orange;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#contact .contact-method {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+#contact .method {
+    text-align: center;
+}
+
+#contact .method i {
+    font-size: 30px;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+#contact .method p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #ededed;
+}

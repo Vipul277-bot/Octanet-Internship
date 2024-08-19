@@ -1,0 +1,121 @@
+body {
+    background: url(https://thumbs.dreamstime.com/b/seamless-illustration-theme-school-simple-contour-icons-light-outline-blue-background-pattern-85221093.jpg);
+     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+    
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     width: 350px; 
+    text-align: center; 
+    width: 700px;
+    height: 400px;
+    margin: 200px auto;
+ 
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(225,225,225,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+#addTaskBtn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #355070;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+#addTaskBtn:hover {
+    box-shadow: 0 0 20px #355070;
+
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#taskList li {
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#taskList li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-btn, .delete-btn, .complete-btn {
+    background-color: #6d597a;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    box-shadow: 0 0 20px #6d597a;
+}
+
+.complete-btn {
+    background-color: #eaac8b;
+}
+
+.complete-btn:hover {
+    box-shadow: 0 0 20px #eaac8b;
+}
+
+.delete-btn {
+    background-color: #e56b6f;
+}
+
+.delete-btn:hover {
+    box-shadow: 0 0 20px #e56b6f;
+}
